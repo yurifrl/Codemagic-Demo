@@ -41,8 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: new Text(widget.title),
       ),
       body: new Center(
-           child: new Column(
-          
+          child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             new Text(
@@ -59,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: new Icon(Icons.add),
-      ), 
+      ),
     );
   }
 }
